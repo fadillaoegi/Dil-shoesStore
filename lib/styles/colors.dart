@@ -7,4 +7,6 @@ class ColorsDilShoesStore {
   static const fontColor = Color(0xffF1F0F2);
   static const descColor = Color(0xff999999);
   static const floatButtonColor = Color(0xff38ABBE);
+  static const priceColor = Color(0xff2C96F1);
+  static const errorColor = Color(0xffED6363);
 }

@@ -2,6 +2,8 @@ import 'package:dilshoesstore/routes/route.dart';
 import 'package:dilshoesstore/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
+void main() => runApp(const MainApps());
+
 class MainApps extends StatefulWidget {
   const MainApps({super.key});
 
