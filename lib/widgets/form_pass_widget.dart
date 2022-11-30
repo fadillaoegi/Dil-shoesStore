@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 // import 'package:flutter/painting.dart';
 
 // ignore: must_be_immutable
-class FormText extends StatelessWidget {
-  FormText({super.key, this.hint = "", this.text = "", this.prefixIcon});
+class FormPass extends StatelessWidget {
+  FormPass({super.key, this.hint = "", this.text = "", this.prefixIcon});
   String? hint;
   String? text;
   Icon? prefixIcon;
@@ -27,6 +27,7 @@ class FormText extends StatelessWidget {
             width: double.infinity,
             height: 50.0,
             child: TextField(
+              obscureText: true,
               decoration: InputDecoration(
                 hintText: hint,
                 hintStyle: fontDisableNormal,
